@@ -7,7 +7,6 @@ To run this code, you will need Python installed on your system. No additional l
 3. Run the script using Python from your terminal:
 
 ```python
-from Data_Processing_and_Storage import InMemoryDB
 
 # Create a new instance of the database
 db = InMemoryDB()
@@ -24,4 +23,5 @@ print(db.get("name"))  # Output: Alice
 print(db.get("age"))   # Output: 30
 
 # Future Assignment Considerations
+
 Additional methods for delete operations and multi-threaded support could simulate concurrent transactions. Methods to handle conflicts when multiple transactions attempt to modify the same key could be included. Having event listener to allow users to register callbacks for certain events, such as on commit or on rollback.

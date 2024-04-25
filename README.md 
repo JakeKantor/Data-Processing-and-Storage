@@ -20,5 +20,4 @@ db.put("age", 30)
 print(db.get("name"))  # Output: Alice
 print(db.get("age"))   # Output: 30
 #Future Assignment Considerations
-
 Additional methods for delete operations and multi-threaded support could simulate concurrent transactions. Methods to handle conflicts when multiple transactions attempt to modify the same key could be included. Having event listener to allow users to register callbacks for certain events, such as on commit or on rollback.

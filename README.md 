@@ -6,8 +6,7 @@ To run this code, you will need Python installed on your system. No additional l
 2. Navigate to the directory containing `in_memory_db.py`.
 3. Run the script using Python from your terminal:
 
-```python
-
+```
 # Create a new instance of the database
 db = InMemoryDB()
 
@@ -21,6 +20,7 @@ db.put("age", 30)
 # Retrieve a value
 print(db.get("name"))  # Output: Alice
 print(db.get("age"))   # Output: 30
+```
 
 # Future Assignment Considerations
 
